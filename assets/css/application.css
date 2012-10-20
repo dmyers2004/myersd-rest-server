@@ -1,0 +1,20 @@
+.coll {
+  float: left;
+  width: 95%;
+}
+.colr {
+  float: left;
+  width: 5%;
+  text-align: right;
+}
+.error {
+  border-color: #B94A48 !important;
+}
+
+.icon-star-empty:hover {
+  background-position: -120px 0;
+}
+
+input.inlineedit {
+  margin-bottom: 0;
+}

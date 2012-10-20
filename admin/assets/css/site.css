@@ -1,0 +1,54 @@
+.resource_line {
+	padding: 4px 0;
+	border-bottom: 1px solid #eee;
+}
+.resourcel {
+	float: left;
+	padding-right: 1%;
+	width: 29%;
+	text-align: right;
+}
+.resourcer {
+	float: left;
+	width: 70%;
+}
+.resourcei {
+	float: left;
+	padding: 0 8px 0 3px;
+	width: 20%;
+}
+.resourcer input, .resourcel input {
+	margin: 7px 2px 0 0;
+}
+
+#dashboard td pre {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #545454;
+}
+
+#fileInput {
+  width:  400px;
+}
+
+.blob {
+  margin: 1px;
+  float: left;
+}
+
+small {
+  font-size: 85%;
+}
+
+.icons2 {
+  padding-left: 8px;
+  width: 32px;
+}
+.icons1 {
+  padding-left: 8px;
+  width: 16px;
+}
+
+
+

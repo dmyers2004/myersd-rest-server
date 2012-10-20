@@ -1,0 +1,41 @@
+This is my Custom RESTful server.
+This is completely custom PHP Code (no framework except my own)
+Of course this has no "user" interface and at this time only returns json. 
+
+The authentication is HTTP Auth.
+Using SSL I think should be pretty secure. I was considering HTTP Digest but that only secures the password not the transmission so I'm not sure that's the best solution?
+
+
+The models in this server can be database, file, or functions which I think adds to the flexibility since it's not always a database table.
+If you do decide to use a database table probably one of the most common types full CRUD support is included.
+
+The GUI to manage the users, access, logs, modules and settings is also included under the /admin folder (this can be changed)
+The GUI is based off of CodeIgniter the PHP MVC Framework and the CSS is Twitter Bootstrap.
+
+In addition this also includes a installer for the server/admin gui.
+
+Included with the RestFul server is the "hello world" of javascript frameworks a "todo" application.
+This example uses my jmvc jquery mvc framework
+
+This is a MVC Framework which makes it easier to create client side applications
+
+It includes:
+
+Personally Coded Libs Include
+jquery.mvcboot.js - configs and boot strap
+jquery.mvc.js - core functions
+jquery.mvcform.js - form functions
+jquery.mvcmodel.js - model functions (the basic CRUD coupled with the RESTful server)
+jquery.session.js - simulated PHP like sessions.
+
+3rd Party Open Source libraries used
+jquery.cookie.js - better cookie handling
+jquery.json-2.2.js - JSON
+jstorage.js - jQuery Client side storage
+jquery.tmpl.js - jQuery templates (views)
+
+Of course the example and jmvc use the RESTful server/api to do all of the CRUD
+
+All of these can be used together or decoupled pretty easily.
+
+ab -n 10000 -c 50 -A abtester@example.com:password http://localhost/myrestserver/notes/8

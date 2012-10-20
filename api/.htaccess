@@ -1,0 +1,11 @@
+SetEnv MODE TEST
+
+RewriteEngine on
+RewriteBase /api/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+php_flag display_errors on

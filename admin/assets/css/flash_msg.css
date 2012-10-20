@@ -1,0 +1,16 @@
+/* growl */
+* html .notice-wrap {
+	position: absolute;		
+}
+.notice-wrap {
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	width: 340px;
+	z-index: 9999;
+}
+.notice-item {
+	display: block;
+	position: relative;
+	margin: 0 0 6px 0;
+}
